@@ -83,25 +83,35 @@ function exercicios06() {
     debugger
     let numero = prompt(" digite um numero")
     if (numero % 2 == 0) {
-        alert("certo")
+        alert("par")
     } else {
         (numero % 2 != 0)
-        alert("errado")
+        alert("impar")
 
     }
 
 }
 function intermediario01() {
-    let n1 =Number (prompt("digite o numero"));
-    let n2 = Number (prompt("digite o numero"));
-    let operacao =  (prompt("digite a operação"));
-    
-    if (operacao == "+"){
-        let resulto = n1+n2;
+    let n1 = Number(prompt("digite o numero"));
+    let n2 = Number(prompt("digite o numero"));
+    let operacao = (prompt("digite a operação"));
+
+    if (operacao == "+") {
+        let resulto = n1 + n2;
         alert(resulto)
     } else if (operacao == "-") {
-        
+        let resulto = n1 - n2;
+        alert(resulto)
+    }else if(operacao == "/"){
+        let resultado = n1 /n2;
+        alert(resultado);
+    }else {
+        let resultado =n1 * n2;
+        alert(resultado)
     }
+    
+
+   
 }
 
 intermediario01()
