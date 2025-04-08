@@ -1,4 +1,4 @@
-function exercio1() {
+function exercicios1() {
     let numero = prompt("digite o numero")
 
     if (numero > 0) {
@@ -17,7 +17,7 @@ function exercio1() {
 }
 
 
-function exercio2() {
+function exercicios2() {
 
     debugger;
 
@@ -32,7 +32,7 @@ function exercio2() {
 
 }
 
-function exerci03() {
+function exercicios3() {
 
     let numero = prompt("digite sua nota");
 
@@ -47,7 +47,7 @@ function exerci03() {
     }
 
 }
-function exerci04() {
+function exercicios04() {
 
     let numero = prompt("digite o numero")
 
@@ -65,13 +65,44 @@ function exerci04() {
         }
     }
 
-} 
-function exercio5(){
+}
+function exercicio5() { // comparação
 
     let idade = prompt("digita sua idade")
-    if(idade >=0 && idade <= 12){
+    if (idade >= 0 && idade <= 12) {
         alert("criança")
-    }else if (idade >= 13 && idade <=17)
+    } else if (idade >= 13 && idade <= 17) {
         alert("adolecente")
-        
+    } else if (idade >= 18) {
+        alert("adulto")
+    }
+
 }
+
+function exercicios06() {
+    debugger
+    let numero = prompt(" digite um numero")
+    if (numero % 2 == 0) {
+        alert("certo")
+    } else {
+        (numero % 2 != 0)
+        alert("errado")
+
+    }
+
+}
+function intermediario01() {
+    let n1 =Number (prompt("digite o numero"));
+    let n2 = Number (prompt("digite o numero"));
+    let operacao =  (prompt("digite a operação"));
+    
+    if (operacao == "+"){
+        let resulto = n1+n2;
+        alert(resulto)
+    } else if (operacao == "-") {
+        
+    }
+}
+
+intermediario01()
+
