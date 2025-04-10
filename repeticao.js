@@ -64,4 +64,41 @@ function intermediario() {
     }
 }
 
-intermediario()
+// intermediario()
+function intermediario02ex() {
+
+    // let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+    // alert("acerte o numero");
+
+    // let numerodigitado = prompt("digite um numero");
+    // while (numeroAleatorio != numerodigitado);
+    // if (numerodigitado = numeroAleatorio) {
+    //     alert("vc acertou")
+    // }else if(numerodigitado < numeroAleatorio){
+    //     alert("numero e maio")
+    // }
+
+
+}
+
+function intermediario02() {
+    let numeroAleatorio =Math.floor(Math.random() * (100-1)+1);
+    let tentativa;
+    while (tentativa != numeroAleatorio){
+
+        tentativa =prompt("insira um numero");
+        if (numeroAleatorio > tentativa) {
+            alert("numero aleatorio e maior");
+
+        }else if(numeroAleatorio < tentativa){
+            alert( "o numero aleatorio e menor")
+
+        }else {
+            alert("vc acerto")
+        }
+    }
+
+    
+}intermediario02()
+
+
