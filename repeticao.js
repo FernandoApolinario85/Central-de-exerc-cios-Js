@@ -82,23 +82,24 @@ function intermediario02ex() {
 }
 
 function intermediario02() {
-    let numeroAleatorio =Math.floor(Math.random() * (100-1)+1);
+    let numeroAleatorio = Math.floor(Math.random() * (100 - 1) + 1);
     let tentativa;
-    while (tentativa != numeroAleatorio){
+    while (tentativa != numeroAleatorio) {
 
-        tentativa =prompt("insira um numero");
+        tentativa = prompt("insira um numero");
         if (numeroAleatorio > tentativa) {
             alert("numero aleatorio e maior");
 
-        }else if(numeroAleatorio < tentativa){
-            alert( "o numero aleatorio e menor")
+        } else if (numeroAleatorio < tentativa) {
+            alert("o numero aleatorio e menor")
 
-        }else {
+        } else {
             alert("vc acerto")
         }
     }
 
-    
-}intermediario02()
+
+}
+
 
 

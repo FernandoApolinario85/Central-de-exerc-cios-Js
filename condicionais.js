@@ -1,4 +1,4 @@
-function exercicios1() {
+function exerciciosCondicionais01() {
     let numero = prompt("digite o numero")
 
     if (numero > 0) {
@@ -14,12 +14,16 @@ function exercicios1() {
             alert(" e zero")
         }
     }
+
+    gerarLog("Numero verificado. " + new Date().toLocaleDateString())
+
 }
 
 
-function exercicios2() {
+function exerciciosCondicionais02() {
 
-    debugger;
+
+    
 
     let idade = prompt("digite sua idade")
 
@@ -29,10 +33,11 @@ function exercicios2() {
     } else {
         alert("voce e menor de idade")
     }
+    gerarLog("Voce Verificou Sua idade. " + new Date().toLocaleDateString())
 
 }
 
-function exercicios3() {
+function exerciciosCondicionais03() {
 
     let numero = prompt("digite sua nota");
 
@@ -45,9 +50,10 @@ function exercicios3() {
         alert("reprovado");
 
     }
+    gerarLog(" sua note foi verificada." + new Date().toLocaleDateString())
 
 }
-function exercicios04() {
+function exerciciosCondicionais04() {
 
     let numero = prompt("digite o numero")
 
@@ -64,9 +70,10 @@ function exercicios04() {
 
         }
     }
+    gerarLog("Seu Numero foi visto. " + new Date().toLocaleDateString())
 
 }
-function exercicio5() { // comparação
+function exerciciosCondicionais05() { // comparação
 
     let idade = prompt("digita sua idade")
     if (idade >= 0 && idade <= 12) {
@@ -76,11 +83,12 @@ function exercicio5() { // comparação
     } else if (idade >= 18) {
         alert("adulto")
     }
+    gerarLog("Ecolução verificada." + new Date().toLocaleDateString())
 
 }
 
-function exercicios06() {
-    debugger
+function exerciciosCondicionais06() {
+
     let numero = prompt(" digite um numero")
     if (numero % 2 == 0) {
         alert("par")
@@ -89,8 +97,11 @@ function exercicios06() {
         alert("impar")
 
     }
+    gerarLog("Numero verifcado com sucesso." + new Date().toDateString())
+
 
 }
+
 function intermediario01() {
     let n1 = Number(prompt("digite o numero"));
     let n2 = Number(prompt("digite o numero"));
@@ -102,17 +113,28 @@ function intermediario01() {
     } else if (operacao == "-") {
         let resulto = n1 - n2;
         alert(resulto)
-    }else if(operacao == "/"){
-        let resultado = n1 /n2;
+    } else if (operacao == "/") {
+        let resultado = n1 / n2;
         alert(resultado);
-    }else {
-        let resultado =n1 * n2;
+    } else {
+        let resultado = n1 * n2;
         alert(resultado)
     }
-    
 
-   
+
+
+}
+function gerarLog(textoDoLog) {
+
+    let logsContainer = document.querySelector(".logs-conteiner");
+
+    let paragraph = document.createElement("p");
+
+    paragraph.innerHTML = textoDoLog;
+
+    logsContainer.appendChild(paragraph);
+
 }
 
-intermediario01()
+
 

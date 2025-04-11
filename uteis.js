@@ -4,4 +4,5 @@ function exemploDeFilter() {
 
     let NumerosFiltrados = numeros.filter(numero => numero >2);
     console.log(NumerosFiltrados)
-}exemploDeFilter()
+
+}
