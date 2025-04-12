@@ -15,7 +15,7 @@ function exerciciosCondicionais01() {
         }
     }
 
-    gerarLog("Numero verificado. " + new Date().toLocaleDateString())
+    gerarLog("Numero verificado. " + new Date().toLocaleString())
 
 }
 
@@ -33,7 +33,7 @@ function exerciciosCondicionais02() {
     } else {
         alert("voce e menor de idade")
     }
-    gerarLog("Voce Verificou Sua idade. " + new Date().toLocaleDateString())
+    gerarLog("Voce Verificou Sua idade. " + new Date().toLocaleString())
 
 }
 
@@ -50,7 +50,7 @@ function exerciciosCondicionais03() {
         alert("reprovado");
 
     }
-    gerarLog(" sua note foi verificada." + new Date().toLocaleDateString())
+    gerarLog(" sua note foi verificada." + new Date().toLocaleString())
 
 }
 function exerciciosCondicionais04() {
@@ -70,7 +70,7 @@ function exerciciosCondicionais04() {
 
         }
     }
-    gerarLog("Seu Numero foi visto. " + new Date().toLocaleDateString())
+    gerarLog("Seu Numero foi visto. " + new Date().toLocaleString())
 
 }
 function exerciciosCondicionais05() { // comparação
@@ -83,7 +83,7 @@ function exerciciosCondicionais05() { // comparação
     } else if (idade >= 18) {
         alert("adulto")
     }
-    gerarLog("Ecolução verificada." + new Date().toLocaleDateString())
+    gerarLog("Ecolução verificada." + new Date().toLocaleString())
 
 }
 
@@ -97,7 +97,7 @@ function exerciciosCondicionais06() {
         alert("impar")
 
     }
-    gerarLog("Numero verifcado com sucesso." + new Date().toDateString())
+    gerarLog("Numero verifcado com sucesso." + new Date().toLocaleString())
 
 
 }
