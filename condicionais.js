@@ -120,6 +120,7 @@ function intermediario01() {
         let resultado = n1 * n2;
         alert(resultado)
     }
+    gerarLog("Seu Resultado." + new Date().toLocaleString())
 
 
 
