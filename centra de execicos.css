@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel:wght@200;300;400;600;700;800;900&family=Noto+Znamenny+Musical+Notation&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: blue;
     color: white;
-    
+
 }
 
 main {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -23,18 +24,19 @@ p {
     margin-top: 15px;
 
 }
-h1{
+
+h1 {
     display: flex;
     align-items: center;
     margin: 15px;
     margin-top: 15px;
-    
+
     font-size: 60px;
 
 }
 
 button {
-    
+
     height: 60px;
     width: 160px;
     margin-top: 15px;
@@ -42,4 +44,8 @@ button {
     border-radius: 8px;
     background-color: black;
     color: rgb(212, 11, 11);
+}
+
+button:hover {
+    background-color: gray;
 }
