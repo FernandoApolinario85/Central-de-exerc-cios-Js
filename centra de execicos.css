@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel:wght@200;300;400;600;700;800;900&family=Noto+Znamenny+Musical+Notation&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -39,6 +40,7 @@ button {
 
     height: 60px;
     width: 160px;
+    margin-left: 12px;
     margin-top: 15px;
     border: none;
     border-radius: 8px;
@@ -47,5 +49,5 @@ button {
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgb(44, 43, 43);
 }

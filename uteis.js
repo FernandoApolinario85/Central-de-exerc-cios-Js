@@ -19,7 +19,7 @@ function exemploFilter3() {
 
     let nomesComJ = nomes.filter(nome => nome.startsWith("j"));
 
-    console.log(`nomesComJ ${nomesComJ} `);
+    console.log(`nomesComJ ${nomesComJ.join(", ")} `);
 
 }
 function intermediarioFilter1() {
@@ -44,9 +44,24 @@ function exemplofind1() {
 
 } exemplofind1()
 
-function exemplomap(){
-    let numeros = [ 1, 2, 3, 4, 5];
-    let numerosDobrados = numeros.map( numero => numero * 2);
+function exemplomap() {
+    let numeros = [1, 2, 3, 4, 5];
+    let numerosDobrados = numeros.map(numero => numero * 2);
     console.log(numerosDobrados)
 }
 exemplomap()
+
+function map01() {
+    let frase = ["Hola Mundo"];
+    let fraseExclamada = frase.map(frase => frase + "!!");
+    console.log(fraseExclamada);
+
+} map01()
+function map02(){
+
+    let aluno = [ "Ana", "Bruno", "carla"];
+    let alunoComNome = aluno.map(aluno => "aluno " + aluno);
+    console.log(alunoComNome)
+    
+}
+map02()
